@@ -46,7 +46,6 @@
 		12CC36E01C0553C40074D560 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC36A71C0553C30074D560 /* libWeChatSDK.a */; };
 		12CC36E11C0553C40074D560 /* libXPay+WXPAY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC36A81C0553C30074D560 /* libXPay+WXPAY.a */; };
 		12CC36E21C0553C40074D560 /* libXBaseSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC36AB1C0553C30074D560 /* libXBaseSDK.a */; };
-		12E9C1691C0599DB009AFCBB /* libXPaySDK_v1.1.01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C1681C0599DB009AFCBB /* libXPaySDK_v1.1.01.a */; };
 		12E9C16F1C059A1D009AFCBB /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C16B1C059A1D009AFCBB /* libUPPayPlugin.a */; };
 		12E9C1701C059A1D009AFCBB /* libXPay+UNIONPAY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C16C1C059A1D009AFCBB /* libXPay+UNIONPAY.a */; };
 		12E9C26A1C05A717009AFCBB /* libASIHttpRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C2511C05A717009AFCBB /* libASIHttpRequest.a */; };
@@ -54,6 +53,7 @@
 		12E9C26C1C05A717009AFCBB /* libTouchJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C2551C05A717009AFCBB /* libTouchJSON.a */; };
 		12E9C26D1C05A717009AFCBB /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C2581C05A717009AFCBB /* libJSONKit.a */; };
 		12E9C26E1C05A717009AFCBB /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C25A1C05A717009AFCBB /* libSDWebImage.a */; };
+		12E9C2D21C05B55E009AFCBB /* libXPaySDK_v1.1.02.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C2D11C05B55E009AFCBB /* libXPaySDK_v1.1.02.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,7 +134,6 @@
 		12CC36AE1C0553C30074D560 /* XModuleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XModuleInfo.h; sourceTree = "<group>"; };
 		12CC36AF1C0553C30074D560 /* XPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPay.h; sourceTree = "<group>"; };
 		12CC36B01C0553C30074D560 /* XRegisterApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRegisterApp.h; sourceTree = "<group>"; };
-		12E9C1681C0599DB009AFCBB /* libXPaySDK_v1.1.01.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXPaySDK_v1.1.01.a; path = sdk/libXPaySDK_v1.1.01.a; sourceTree = SOURCE_ROOT; };
 		12E9C16B1C059A1D009AFCBB /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
 		12E9C16C1C059A1D009AFCBB /* libXPay+UNIONPAY.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libXPay+UNIONPAY.a"; sourceTree = "<group>"; };
 		12E9C16D1C059A1D009AFCBB /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
@@ -161,6 +160,7 @@
 		12E9C2671C05A717009AFCBB /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		12E9C2681C05A717009AFCBB /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
 		12E9C2691C05A717009AFCBB /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		12E9C2D11C05B55E009AFCBB /* libXPaySDK_v1.1.02.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXPaySDK_v1.1.02.a; path = sdk/libXPaySDK_v1.1.02.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,13 +177,13 @@
 				12E9C1701C059A1D009AFCBB /* libXPay+UNIONPAY.a in Frameworks */,
 				122F7C9D1BC682110027C823 /* MobileCoreServices.framework in Frameworks */,
 				12E9C16F1C059A1D009AFCBB /* libUPPayPlugin.a in Frameworks */,
-				12E9C1691C0599DB009AFCBB /* libXPaySDK_v1.1.01.a in Frameworks */,
 				120296D71BC750510061B3A1 /* CoreTelephony.framework in Frameworks */,
 				12CC36E21C0553C40074D560 /* libXBaseSDK.a in Frameworks */,
 				120296D81BC750510061B3A1 /* CoreText.framework in Frameworks */,
 				122F7C9B1BC682080027C823 /* SystemConfiguration.framework in Frameworks */,
 				122F7C991BC682020027C823 /* CoreGraphics.framework in Frameworks */,
 				12CC36B31C0553C30074D560 /* libXPay+ALIPAY.a in Frameworks */,
+				12E9C2D21C05B55E009AFCBB /* libXPaySDK_v1.1.02.a in Frameworks */,
 				122F7C971BC681FE0027C823 /* Foundation.framework in Frameworks */,
 				12CC36B21C0553C30074D560 /* AlipaySDK.framework in Frameworks */,
 				12E9C26A1C05A717009AFCBB /* libASIHttpRequest.a in Frameworks */,
@@ -320,7 +320,7 @@
 			children = (
 				12CC362C1C0553C30074D560 /* Channel */,
 				12CC36AB1C0553C30074D560 /* libXBaseSDK.a */,
-				12E9C1681C0599DB009AFCBB /* libXPaySDK_v1.1.01.a */,
+				12E9C2D11C05B55E009AFCBB /* libXPaySDK_v1.1.02.a */,
 				12CC36AD1C0553C30074D560 /* XFetchModel.h */,
 				12CC36AE1C0553C30074D560 /* XModuleInfo.h */,
 				12CC36AF1C0553C30074D560 /* XPay.h */,
