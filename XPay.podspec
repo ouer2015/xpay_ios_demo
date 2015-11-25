@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    旋涡科技支付组件,包含 支付宝、微信、百度钱包、银联。
                    DESC
   s.homepage     = 'http://www.kkkd.com/home'
-  s.license      = "MIT"
+  s.license      = 'MIT'
   s.author       = { 'tongxuan' => 'tongxuan@ixiaopu.com' }
   s.platform     = :ios, '7.0'
   s.source       = { :git => 'https://github.com/ouer2015/xpay_ios_demo.git', :tag => s.version }
