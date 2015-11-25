@@ -12,4 +12,4 @@ Demo说明：
 开发要点：
 	1.设置好正确【项目属性】-【Info】-【URL Schemes】才能正常调起支付。
 	2.如遇支付宝无法调起正常调起，导入CoreFoundation.framework，并设置为Optional。
-	3.使用百度钱包时，如遇crash，请检查是否关闭了Xcode的异常断点。
+	3.使用百度钱包时，如遇Crash，请检查是否关闭了Xcode的异常断点。
