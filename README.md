@@ -82,6 +82,7 @@ pod 'XPay/Bfb', '~> 1.1.02'
 <string>alipay</string>
 </array>
 ```
+
 2. iOS 9 限制了 http 协议的访问，如果 App 需要访问 `http://`，需要在 `Info.plist` 添加如下代码：
 
 ```
@@ -91,6 +92,7 @@ pod 'XPay/Bfb', '~> 1.1.02'
 <true/>
 </dict>
 ```
+
 3. 如果编译失败，遇到错误信息为：
 
 ```
