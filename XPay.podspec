@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'XPay'
-  s.version      = '1.1.02'
+  s.version      = '1.1.03'
   s.summary      = 'XPay iOS SDK'
   s.description  = <<-DESC
                    旋涡科技支付组件,包含 支付宝、微信、百度钱包、银联。
