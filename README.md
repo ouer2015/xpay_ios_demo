@@ -52,7 +52,7 @@ QuartzCore.framework
 * 在 `Podfile` 添加
 
 ```
-pod 'XPay', '~> 1.1.02'
+pod 'XPay'
 ```
 
 默认会包含 支付宝、微信、银联。你也可以自由组合。  
@@ -60,10 +60,10 @@ pod 'XPay', '~> 1.1.02'
 例如：
 
 ```
-pod 'XPay/Alipay', '~> 1.1.02'
-pod 'XPay/WxPay', '~> 1.1.02'
-pod 'XPay/UnionPay', '~> 1.1.02'
-pod 'XPay/Bfb', '~> 1.1.02'
+pod 'XPay/Alipay'
+pod 'XPay/WxPay'
+pod 'XPay/UnionPay'
+pod 'XPay/Bfb'
 ```
 
 * 运行 `pod install`

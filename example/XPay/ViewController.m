@@ -125,7 +125,7 @@
 - (void)sendRequest:(NSInteger)row {
     
     // 模拟订单号
-    partnerTradeNo = [NSString stringWithFormat:@"%d",arc4random()%100000+100000];
+    partnerTradeNo = [NSString stringWithFormat:@"%d",arc4random()%100000+10000000];
     
     
     NSDictionary * tempDict = @{
@@ -205,7 +205,7 @@
         }
         
         
-        [XPay pay:charge appURLScheme:nil viewController:self withCompletion:^(XPayResultStatus status, NSString *memo, NSObject *attach) {
+        [XPay pay:charge appURLScheme:@"123abc" viewController:self withCompletion:^(XPayResultStatus status, NSString *memo, NSObject *attach) {
             NSLog(@"status -- %ld",(long)status);
             NSLog(@"memo -- %@",memo);
             NSLog(@"attach -- %@",attach);
