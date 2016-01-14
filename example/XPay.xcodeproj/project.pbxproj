@@ -26,6 +26,7 @@
 		122F7CA11BC6821A0027C823 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 122F7CA01BC6821A0027C823 /* libz.tbd */; };
 		122F7CA31BC6821F0027C823 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 122F7CA21BC6821F0027C823 /* libc++.tbd */; };
 		122F7CA51BC682240027C823 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 122F7CA41BC682240027C823 /* libsqlite3.0.tbd */; };
+		12506C981C47BE3A00A57A89 /* libXPaySDK_v1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12506C971C47BE3A00A57A89 /* libXPaySDK_v1.1.a */; };
 		12A8C05B1BD8B12B00767879 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A8C0411BD8B12B00767879 /* Info.plist */; };
 		12A8C05C1BD8B12B00767879 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A8C0431BD8B12B00767879 /* MASCompositeConstraint.m */; };
 		12A8C05D1BD8B12B00767879 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A8C0461BD8B12B00767879 /* MASConstraint.m */; };
@@ -46,7 +47,6 @@
 		12CC36E01C0553C40074D560 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC36A71C0553C30074D560 /* libWeChatSDK.a */; };
 		12CC36E11C0553C40074D560 /* libXPay+WXPAY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC36A81C0553C30074D560 /* libXPay+WXPAY.a */; };
 		12CC36E21C0553C40074D560 /* libXBaseSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC36AB1C0553C30074D560 /* libXBaseSDK.a */; };
-		12D802D11C44A14E00E5DC3A /* libXPaySDK_v1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D802D01C44A14E00E5DC3A /* libXPaySDK_v1.1.a */; };
 		12E9C16F1C059A1D009AFCBB /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C16B1C059A1D009AFCBB /* libUPPayPlugin.a */; };
 		12E9C1701C059A1D009AFCBB /* libXPay+UNIONPAY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C16C1C059A1D009AFCBB /* libXPay+UNIONPAY.a */; };
 		12E9C26A1C05A717009AFCBB /* libASIHttpRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9C2511C05A717009AFCBB /* libASIHttpRequest.a */; };
@@ -92,6 +92,7 @@
 		122F7CA01BC6821A0027C823 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		122F7CA21BC6821F0027C823 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		122F7CA41BC682240027C823 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		12506C971C47BE3A00A57A89 /* libXPaySDK_v1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXPaySDK_v1.1.a; path = SDK/libXPaySDK_v1.1.a; sourceTree = SOURCE_ROOT; };
 		12A8C0411BD8B12B00767879 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A8C0421BD8B12B00767879 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		12A8C0431BD8B12B00767879 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -134,7 +135,6 @@
 		12CC36AE1C0553C30074D560 /* XModuleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XModuleInfo.h; sourceTree = "<group>"; };
 		12CC36AF1C0553C30074D560 /* XPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPay.h; sourceTree = "<group>"; };
 		12CC36B01C0553C30074D560 /* XRegisterApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRegisterApp.h; sourceTree = "<group>"; };
-		12D802D01C44A14E00E5DC3A /* libXPaySDK_v1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXPaySDK_v1.1.a; path = Channel/libXPaySDK_v1.1.a; sourceTree = "<group>"; };
 		12E9C16B1C059A1D009AFCBB /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
 		12E9C16C1C059A1D009AFCBB /* libXPay+UNIONPAY.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libXPay+UNIONPAY.a"; sourceTree = "<group>"; };
 		12E9C16D1C059A1D009AFCBB /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 				122F7C9D1BC682110027C823 /* MobileCoreServices.framework in Frameworks */,
 				12E9C16F1C059A1D009AFCBB /* libUPPayPlugin.a in Frameworks */,
 				120296D71BC750510061B3A1 /* CoreTelephony.framework in Frameworks */,
-				12D802D11C44A14E00E5DC3A /* libXPaySDK_v1.1.a in Frameworks */,
+				12506C981C47BE3A00A57A89 /* libXPaySDK_v1.1.a in Frameworks */,
 				12CC36E21C0553C40074D560 /* libXBaseSDK.a in Frameworks */,
 				120296D81BC750510061B3A1 /* CoreText.framework in Frameworks */,
 				122F7C9B1BC682080027C823 /* SystemConfiguration.framework in Frameworks */,
@@ -229,7 +229,7 @@
 		122DBE331BB16AD60080B83F /* XPay */ = {
 			isa = PBXGroup;
 			children = (
-				12CC362B1C0553C30074D560 /* sdk */,
+				12CC362B1C0553C30074D560 /* SDK */,
 				12A8C0401BD8B12B00767879 /* Masonry */,
 				122DBE371BB16AD60080B83F /* AppDelegate.h */,
 				122DBE381BB16AD60080B83F /* AppDelegate.m */,
@@ -315,17 +315,18 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		12CC362B1C0553C30074D560 /* sdk */ = {
+		12CC362B1C0553C30074D560 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				12506C971C47BE3A00A57A89 /* libXPaySDK_v1.1.a */,
 				12CC362C1C0553C30074D560 /* Channel */,
 				12CC36AB1C0553C30074D560 /* libXBaseSDK.a */,
-				12D802D01C44A14E00E5DC3A /* libXPaySDK_v1.1.a */,
 				12CC36AD1C0553C30074D560 /* XFetchModel.h */,
 				12CC36AE1C0553C30074D560 /* XModuleInfo.h */,
 				12CC36AF1C0553C30074D560 /* XPay.h */,
 				12CC36B01C0553C30074D560 /* XRegisterApp.h */,
 			);
+			name = SDK;
 			path = sdk;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -725,6 +726,7 @@
 					"$(PROJECT_DIR)/sdk/Channel/BfbPay/Library/JSONKit",
 					"$(PROJECT_DIR)/sdk/Channel/BfbPay/Library/SDWebImage",
 					"$(PROJECT_DIR)/sdk/Channel",
+					"$(PROJECT_DIR)/SDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -762,6 +764,7 @@
 					"$(PROJECT_DIR)/sdk/Channel/BfbPay/Library/JSONKit",
 					"$(PROJECT_DIR)/sdk/Channel/BfbPay/Library/SDWebImage",
 					"$(PROJECT_DIR)/sdk/Channel",
+					"$(PROJECT_DIR)/SDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
