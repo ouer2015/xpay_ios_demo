@@ -11,9 +11,6 @@
 #import "XPay.h"
 
 
-//  支付宝支付后同步页面跳转地址
-#define alipayReturnUrl     @"123abc"
-
 // 你的服务端创建并返回 charge 的 URL 地址
 #define urlStr            @"http://api.kkkd.com/payDemo/chargeSubmit.jsp"
 
@@ -117,12 +114,12 @@
         channel = @"UNIONPAY_APP";
     }
     
-    [self sendRequest:indexPath.row];
+    [self sendRequest];
 }
 
 #pragma mark - 获取charge，调起支付
 
-- (void)sendRequest:(NSInteger)row {
+- (void)sendRequest {
     
     // 模拟订单号
     partnerTradeNo = [NSString stringWithFormat:@"%d",arc4random()%100000+10000000];
@@ -138,10 +135,6 @@
 
 
     NSMutableDictionary * dict = [NSMutableDictionary dictionaryWithDictionary:tempDict];
-    if (row == 1) {
-        // 支付宝 -- 支付后同步页面跳转地址
-        [dict setObject:alipayReturnUrl forKey:@"alipayReturnUrl"];        // --   (选填)
-    }
     
     NSLog(@"%@",dict);
     // 模拟下单
