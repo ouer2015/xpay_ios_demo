@@ -229,7 +229,7 @@
 		122DBE331BB16AD60080B83F /* XPay */ = {
 			isa = PBXGroup;
 			children = (
-				12CC362B1C0553C30074D560 /* SDK */,
+				12CC362B1C0553C30074D560 /* sdk */,
 				12A8C0401BD8B12B00767879 /* Masonry */,
 				122DBE371BB16AD60080B83F /* AppDelegate.h */,
 				122DBE381BB16AD60080B83F /* AppDelegate.m */,
@@ -315,7 +315,7 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		12CC362B1C0553C30074D560 /* SDK */ = {
+		12CC362B1C0553C30074D560 /* sdk */ = {
 			isa = PBXGroup;
 			children = (
 				12506C971C47BE3A00A57A89 /* libXPaySDK_v1.1.a */,
@@ -326,7 +326,6 @@
 				12CC36AF1C0553C30074D560 /* XPay.h */,
 				12CC36B01C0553C30074D560 /* XRegisterApp.h */,
 			);
-			name = SDK;
 			path = sdk;
 			sourceTree = SOURCE_ROOT;
 		};
