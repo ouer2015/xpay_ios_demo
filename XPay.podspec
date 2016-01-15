@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'XPay'
-  s.version      = '1.1.08'
+  s.version      = '1.1.09'
   s.summary      = 'XPay iOS SDK'
   s.description  = <<-DESC
                    旋涡科技支付组件,包含 支付宝、微信、百度钱包、银联。
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.source       = { :git => 'https://github.com/ouer2015/xpay_ios_demo.git', :tag => s.version }
   s.requires_arc = true
-  s.default_subspec = 'Base', 'AliPay', 'WxPay', 'UnionPay'
+  s.default_subspec = "Base", "AliPay", "WxPay", "UnionPay"
 
   s.subspec 'Base' do |base|
     base.source_files = 'example/sdk/*.h'
