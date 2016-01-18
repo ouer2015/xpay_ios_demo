@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'XPay'
-  s.version      = '1.1.09'
+  s.version      = '1.1.10'
   s.summary      = 'XPay iOS SDK'
   s.description  = <<-DESC
                    旋涡科技支付组件,包含 支付宝、微信、百度钱包、银联。
@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'AliPay' do |alipay|
+    alipay.frameworks = 'CoreMotion', 'CoreText', 'CoreGraphics'
     alipay.vendored_libraries = 'example/sdk/Channel/Alipay/*.a'
     alipay.ios.vendored_frameworks = 'example/sdk/Channel/Alipay/AlipaySDK.framework'
     alipay.resource = 'example/sdk/Channel/Alipay/AlipaySDK.bundle'
@@ -46,11 +47,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Bfb' do |bfb|
-    bfb.frameworks = 'AddressBook', 'AddressBookUI', 'AudioToolbox', 'CoreAudio', 'CoreGraphics', 'MapKit', 'MessageUI', 'QuartzCore'
+    bfb.frameworks = 'AddressBook', 'AddressBookUI', 'AudioToolbox', 'CoreAudio', 'CoreGraphics', 'MessageUI', 'QuartzCore', 'LocalAuthentication', 'CoreLocation'
     bfb.public_header_files = 'example/sdk/Channel/BfbPay/Library/**/*.h'
     bfb.source_files = 'example/sdk/Channel/BfbPay/Library/**/*.h'
     bfb.resource = 'example/sdk/Channel/BfbPay/*.bundle'
     bfb.vendored_libraries = 'example/sdk/Channel/BfbPay/**/*.a'
+    bfb.ios.vendored_frameworks = 'example/sdk/Channel/BfbPay/*.framework'
     bfb.dependency 'XPay/Base'
   end
 
