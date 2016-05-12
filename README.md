@@ -30,6 +30,14 @@ libz.tbd
 libsqlite3.0.tbd
 ```
 
+支付宝所需：
+
+```
+CoreMotion.framework
+CoreText.framework
+CoreGraphics.framework
+```
+
 百度钱包所需：
 
 ```
@@ -39,9 +47,10 @@ AddressBookUI.framework
 AudioToolbox.framework
 CoreAudio.framework
 CoreGraphics.framework
-MapKit.framework
+LocalAuthentication.framework
 MessageUI.framework
 QuartzCore.framework
+CoreLocation.framework
 ```
 
 * 如果不需要某些渠道，删除 `sdk/Channel` 下的相应目录即可。
